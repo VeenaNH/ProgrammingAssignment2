@@ -1,3 +1,4 @@
+#Caching the Matrix
 CacheMatrix <- function(x = matrix()) {
               inv = NULL
         set = function(y) {
@@ -9,7 +10,7 @@ CacheMatrix <- function(x = matrix()) {
         getinv = function() inv
         return(x)
 }
-
+#Calculating the inverse of the matrix
 inverse<-function(x=matrix()) {
 
 	if(nrow(x)!=ncol(x)) 
